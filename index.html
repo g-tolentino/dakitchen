@@ -9,35 +9,107 @@
           src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body style="background: #6f000b">
+<body class="dakitchen-background">
 
-<div class="dakitchen-background">
-  <div class="ui borderless menu" style="box-shadow: none; border-style: none; margin-left: 175px; margin-right: 175px">
+<div class="ui centered grid">
+
+  <div class="top row">
     <div class="ui container">
-      <div class="item"><i class="location arrow icon"></i> 425 Koloa St., Suite 104 Kahului, HI 96732</div>
-      <div class="right menu">
-        <div class="item"><i class="envelope icon"></i>dakitchenmaui@icloud.com</div>
-        <div class="item"><i class="phone icon"></i>808.871.7782</div>
+      <div class="ui secondary  menu" style="padding-left: 30px; padding-right: 30px">
+        <div class="ui item"><i class="location arrow icon"></i> 425 Koloa St., Suite 104 Kahului, HI 96732</div>
+        <div class="right menu">
+          <a class="ui item"><i class="envelope icon"></i>dakitchenmaui@icloud.com</a>
+          <div class="ui item"><i class="phone icon"></i>808.871.7782</div>
+        </div>
+      </div>
+
+    <hr>
+
+      <div class="ui secondary  menu" style="padding-left: 30px; padding-right: 30px">
+        <div class="ui image"><img src="http://dakitchen.com/wp-content/uploads/2015/11/da-kitchen.png"></div>
+        <a class="item">Home</a>
+        <a class="item">Gift Cards</a>
+        <div class="ui dropdown item">About
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item">Our Story</a>
+            <a class="item">Gluten Free Menu</a>
+            <a class="item">Locations</a>
+            <a class="item">Store</a>
+            <a class="item">Gift Cards</a>
+            <a class="item">Gallery</a>
+            <a class="item">Community</a>
+            <a class="item">Contact</a>
+            <a class="item">Get Mobile App</a>
+          </div>
+        </div>
+        <a class="item">Menu</a>
+        <a class="item">Order Now</a>
+        <a class="item">Store</a>
+        <a class="item">Catering</a>
+        <a class="item">Mobile App</a>
       </div>
     </div>
   </div>
 
 
-  <div class="ui borderless menu" style="box-shadow: none; border-style: none; margin-left: 175px; margin-right: 175px">
-    <div class="ui container">
-      <div class="ui image"><img src="http://dakitchen.com/wp-content/uploads/2015/11/da-kitchen.png"></div>
-      <a class="item">Home</a>
-      <a class="item">Gift Cards</a>
-      <a class="item">About</a>
-      <a class="item">Menu</a>
-      <a class="item">Order Now</a>
-      <a class="item">Store</a>
-      <a class="item">Catering</a>
-      <a class="item">Mobile App</a>
+  <h1 class="ui header">ISLAND STYLE FOOD</h1>
+
+  <div class="bottom row">
+    <div class="three wide column">
+      <img class="ui image" src="http://dakitchen.com/wp-content/uploads/2011/10/wslide1-1-640x427.jpg">
+      <p>We are a local food establishment that opened with the intention to serve not only mouth watering food, but
+        also big portions at the best price!</p>
+      <button class="ui button">Learn More</button>
+    </div>
+    <div class="three wide column">
+      <img class="ui image" src="http://dakitchen.com/wp-content/uploads/2011/10/new-back-meal-640x427.jpg">
+      <p>Here’s a sample of our menu options that are prepared fresh for you every day. You can also download our
+        Kahului Menu or our Kihei Take Out Menu</p>
+      <button class="ui button">Learn More</button>
+    </div>
+    <div class="three wide column">
+      <img class="ui image" src="http://dakitchen.com/wp-content/uploads/2011/10/wslide3-640x427.jpg">
+      <p>We’re happy to serve you at either of our locations including Da Kitchen Cafe in Kahului and Da Kitchen
+        Express
+        in Kihei on the island of Maui</p>
+      <button class="ui button">Learn More</button>
+    </div>
+
+    <div class="order row">
+      <div class="ui container">
+        <h1 style="margin: 60px; color: #6f000b">ORDERING ON THE GO?</h1>
+        <p style="margin-left: 50px; margin-right: 50px">We know you might want to order using your mobile device,
+          that’s why we’re happy to provide a mobile app for
+          your IOS or Android device. You can also order from our website via your phone, or Text DAKITCHEN to 33733
+          to
+          download our app. Select your favorite AppStore below:</p>
+        <div class="ui medium images">
+          <img src="http://dakitchen.com/wp-content/uploads/2016/01/android1_bigsister-640x208.jpg">
+          <img src="http://dakitchen.com/wp-content/uploads/2016/01/app-store-640x209.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer row">
+      <div class="ui secondary  menu" style="padding-left: 50px; padding-right: 50px; margin-top: 40px">
+        <div class="ui item">Copyright © 2016 · All Rights Reserved · Da Kitchen</div>
+        <div class="right menu">
+          <a class="ui item"><i class="facebook square icon"></i></a>
+          <a class="ui item"><i class="twitter icon"></i></a>
+          <a class="ui item"><i class="instagram icon"></i></a>
+        </div>
+      </div>
     </div>
   </div>
+
 </div>
 
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+</script>
 
 </body>
 </html>
